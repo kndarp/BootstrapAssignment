@@ -13,7 +13,13 @@ Updated: June 2016
    Layout
    -------------------------------------- */
 
+#features{
+  text-align: center;
+}
 
+#features img{
+  margin: 0 0 20px;
+}
 
 /* --------------------------------------
    Typography
@@ -82,6 +88,7 @@ Updated: June 2016
 
 .alert{
   margin-top: 20px;
+  display: none;
 }
 
 .well{
