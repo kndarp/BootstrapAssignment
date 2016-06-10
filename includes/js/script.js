@@ -9,7 +9,7 @@ Updated: June 2016
 */
 
 $(function(){
-  $('#alertMe').click(function(e){
+  $('#nexttime').click(function(e){
     e.preventDefault();
     $('#successAlert').slideDown();
   })

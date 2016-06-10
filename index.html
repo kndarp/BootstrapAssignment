@@ -124,8 +124,8 @@
 
           <div class="alert alert-success alert-block fade in" id="successAlert">
             <button class="close" type="button" data-dismiss="alert">&times;</button>
-            <h4>Ting!</h4>
-            <p>We heard you.</p>
+            <h4>Alright!</h4>
+            <p>We communicate with you for a time. If you're not comfortable with a time, please write to us and we'd be happy to reschedule.</p>
           </div>
 
           <div class="well well-small visible-sm"><a href="#" class="btn btn-large btn-block btn-default" ><span class="glyphicon glyphicon-phone"></span>Call us!</a></div>
@@ -137,7 +137,41 @@
             <!-- end page header -->
             <p class="lead">We recruit from the mighty Harvard Law School, which mints every year industrious and assiduous professionals who persevere to make you win.</p>
 
-            <a href="#" class="btn btn-large btn-success" id="alertMe">Ring a bell</a>
+            <a href="#meetingModal" role="button" class="btn btn-success" data-toggle="modal">Schedule an appointment</a>
+            <div class="modal fade" id="meetingModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <div class="modal-title">Schedule an Appointment</div>
+                  </div>
+                  <div class="modal-body">
+                    <h4>Provide us with your details and we'll put you on our calendar.</h4>
+                    <form action="" class="horizontal-form">
+                      <div class="form-group">
+                        <labelclass="col-lg-2 control-label" for="inputName">Name</label>
+                        <div class="col-lg-10">
+                          <input type="text" class="form-control" id="inputName" placeholer="Your Name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <labelclass="col-lg-2 control-label" for="inputEmail">Email</label>
+                        <div class="col-lg-10">
+                          <input type="text" class="form-control" id="inputEmail" placeholer="Your Email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <labelclass="col-lg-2 control-label" for="inputName">Name</label>
+                        <div class="col-lg-10">
+                          <input type="text" class="form-control" id="inputName" placeholer="Your Name">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -186,8 +220,31 @@
       </div>
       <!-- end features -->
 
-      <div class="row" id="moreInfo">
+      <div class="row" id="work">
+        <div class="col-sm-6">
+          <h3>Pro Bono</h3>
+          <div class="tabbable">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab1" data-toggle="tab">Class Action</a></li>
+              <li><a href="#tab2" data-toggle="tab">Housing</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab1">
+                <h4>Case Name</h4>
+                <small>City,State</small>
+                <img src="//placehold.it/160x160" alt="Img" class="thumbnail pull-left"/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vitae possimus quidem optio iusto, quia accusantium. Cupiditate nisi, atque voluptatum facilis consectetur quasi harum molestiae minima, repellat maxime distinctio corporis.</p>
+              </div>
+              <div class="tab-pane" id="tab2">
+                <h4>Case Name 2</h4>
+                <small>City,State</small>
+                <img src="//placehold.it/160x160" alt="Img" class="thumbnail pull-left"/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vitae possimus quidem optio iusto, quia accusantium. Cupiditate nisi, atque voluptatum facilis consectetur quasi harum molestiae minima, repellat maxime distinctio corporis.</p>
+              </div>
+            </div>
 
+          </div>
+        </div>
       </div>
       <!-- end moreInfo -->
 
