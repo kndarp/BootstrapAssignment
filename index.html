@@ -38,7 +38,8 @@
 
           <div class="nav-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li><a href="">Home</a></li>
+              <li class="active"><a href="#">Team</a></li>
               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Finance</a></li>
@@ -93,7 +94,7 @@
           <div class="item active" id="slide1">
             <div class="carousel-caption">
               <h4>The best in business</h4>
-              <p>Pearson Specter Litt has been a firm of choice for corporate counsel,executives and professionals.</p>
+              <p>Pearson Specter Litt has been a firm of choice for corporate counsel, executives and professionals.</p>
             </div>
           </div>
           <div class="item" id="slide2">
@@ -125,7 +126,7 @@
           <div class="alert alert-success alert-block fade in" id="successAlert">
             <button class="close" type="button" data-dismiss="alert">&times;</button>
             <h4>Alright!</h4>
-            <p>We communicate with you for a time. If you're not comfortable with a time, please write to us and we'd be happy to reschedule.</p>
+            <p>We communicate with you. If you're not comfortable with the time provided, please <a href="#" rel="tooltip" class="pop" data-toggle="popover" data-placement="top" data-original-title="support@psl.com">write to us</a> and we'd be happy to reschedule.</p>
           </div>
 
           <div class="well well-small visible-sm"><a href="#" class="btn btn-large btn-block btn-default" ><span class="glyphicon glyphicon-phone"></span>Call us!</a></div>
@@ -147,23 +148,27 @@
                   </div>
                   <div class="modal-body">
                     <h4>Provide us with your details and we'll put you on our calendar.</h4>
-                    <form action="" class="horizontal-form">
+                    <form action="" class="form-horizontal">
                       <div class="form-group">
-                        <labelclass="col-lg-2 control-label" for="inputName">Name</label>
+                        <label class="col-lg-2 control-label" for="inputName">Name</label>
                         <div class="col-lg-10">
-                          <input type="text" class="form-control" id="inputName" placeholer="Your Name">
+                          <input type="text" class="form-control" id="inputName" placeholder="Your Name">
                         </div>
                       </div>
                       <div class="form-group">
-                        <labelclass="col-lg-2 control-label" for="inputEmail">Email</label>
+                        <label class="col-lg-2 control-label" for="inputEmail">Email</label>
                         <div class="col-lg-10">
-                          <input type="text" class="form-control" id="inputEmail" placeholer="Your Email">
+                          <input type="text" class="form-control" id="inputEmail" placeholder="Your Email">
                         </div>
                       </div>
                       <div class="form-group">
-                        <labelclass="col-lg-2 control-label" for="inputName">Name</label>
+                        <label class="col-lg-2 control-label" for="inputScenario">Scenario</label>
                         <div class="col-lg-10">
-                          <input type="text" class="form-control" id="inputName" placeholer="Your Name">
+                          <textarea class="form-control" id="inputScenario" placeholder="Your Scenario that you need our help with" rows="3"></textarea>
+
+                          <button class="btn btn-success pull-right" id="alertMe">Submit</button>
+                          <button class="btn btn-danger pull-right" id="close" data-dismiss="modal">Dismiss</button>
+
                         </div>
                       </div>
                     </form>
@@ -177,17 +182,17 @@
       </div>
       <!-- end callout -->
 
-      <div class="row" id="featuresHeading">
+      <div class="row" id="namePartners">
         <div class="col-12">
           <h2>Our Name Partners</h2>
           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ratione at dignissimos deserunt in unde doloremque, neque laborum iste alias temporibus magnam excepturi accusamus tenetur assumenda sed, officiis dolore non!</p>
         </div>
       </div>
-      <!-- end featuresheading -->
+      <!-- end namePartners -->
 
 
-      <div class="row" id="features">
-          <div class="col-sm-4 feature">
+      <div class="row" id="topLevel">
+          <div class="col-sm-4 namePartner">
             <div class="panel">
               <div class="panel-heading">
                 <h3 class="panel-title">Jessica Pearson</h3>
@@ -197,7 +202,7 @@
 
             </div>
           </div>
-          <div class="col-sm-4 feature">
+          <div class="col-sm-4 namePartner">
             <div class="panel">
               <div class="panel-heading">
                 <h3 class="panel-title">Harvey Specter</h3>
@@ -207,7 +212,7 @@
 
             </div>
           </div>
-          <div class="col-sm-4 feature">
+          <div class="col-sm-4 namePartner">
             <div class="panel">
               <div class="panel-heading">
                 <h3 class="panel-title">Louis Litt</h3>
@@ -218,31 +223,63 @@
             </div>
           </div>
       </div>
-      <!-- end features -->
+      <!-- end topLevel -->
 
-      <div class="row" id="work">
-        <div class="col-sm-6">
-          <h3>Pro Bono</h3>
+      <div class="row" id="otherLevels">
+        <div class="col-12">
+          <h3>Rest of Us</h3>
           <div class="tabbable">
-            <ul class="nav nav-tabs">
-              <li class="active"><a href="#tab1" data-toggle="tab">Class Action</a></li>
-              <li><a href="#tab2" data-toggle="tab">Housing</a></li>
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a href="#tab1" data-toggle="tab">Senior Partners</a></li>
+              <li><a href="#tab2" data-toggle="tab">Junior Partners</a></li>
+              <li><a href="#tab3" data-toggle="tab">Associates</a></li>
+              <li><a href="#tab4" data-toggle="tab">Paralegals</a></li>
             </ul>
             <div class="tab-content">
               <div class="tab-pane active" id="tab1">
-                <h4>Case Name</h4>
-                <small>City,State</small>
-                <img src="//placehold.it/160x160" alt="Img" class="thumbnail pull-left"/>
+                <h4>Senior Partners</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vitae possimus quidem optio iusto, quia accusantium. Cupiditate nisi, atque voluptatum facilis consectetur quasi harum molestiae minima, repellat maxime distinctio corporis.</p>
+                <div class="col-3 person alpha">
+                  <img src="images/soloff.png" alt="Jack Soloff" class="img-circle">
+                  <div class="col-12 personName"><span class="label label-default">Jack Soloff</span></div>
+                </div>
+                <div class="col-3 person">
+                  <img src="images/hardman.png" alt="Daniel Hardman" class="img-circle">
+                  <div class="col-12 personName"><span class="label label-default">Daniel Hardman</span></div>
+                </div>
+                <div class="col-3 person">
+                  <img src="images/malone.png" alt="Jeff Malone" class="img-circle">
+                  <div class="col-12 personName"><span class="label label-default">Jeff Malone</span></div>
+                </div>
+                <div class="col-3 person omega">
+                  <img src="images/soloff.png" alt="Paul Porter" class="img-circle">
+                  <div class="col-12 personName"><span class="label label-default">Paul Porter</span></div>
+                </div>
               </div>
               <div class="tab-pane" id="tab2">
-                <h4>Case Name 2</h4>
-                <small>City,State</small>
-                <img src="//placehold.it/160x160" alt="Img" class="thumbnail pull-left"/>
+                <h4>Junior Partners</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vitae possimus quidem optio iusto, quia accusantium. Cupiditate nisi, atque voluptatum facilis consectetur quasi harum molestiae minima, repellat maxime distinctio corporis.</p>
+              </div>
+              <div class="tab-pane" id="tab3">
+                <h4>Associates</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vitae possimus quidem optio iusto, quia accusantium. Cupiditate nisi, atque voluptatum facilis consectetur quasi harum molestiae minima, repellat maxime distinctio corporis.</p>
+              </div>
+              <div class="tab-pane" id="tab4">
+                <h4>Paralegals</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vitae possimus quidem optio iusto, quia accusantium. Cupiditate nisi, atque voluptatum facilis consectetur quasi harum molestiae minima, repellat maxime distinctio corporis.</p>
               </div>
             </div>
 
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h3>Track Record</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio blanditiis nihil debitis eaque accusantium, nemo aspernatur ullam delectus error. Earum, quia, minima? Eveniet rem earum, consequuntur soluta placeat ipsa reiciendis!</p>
+          <div class="list-group">
+            <a href="" class="list-group-item"><span class="badge">114</span>Financial Law</a>
+            <a href="" class="list-group-item"><span class="badge">1200</span>Pro Bono</a>
+            <a href="" class="list-group-item"><span class="badge">89</span>Housing</a>
+            <a href="" class="list-group-item"><span class="badge">587</span>Settlements</a>
           </div>
         </div>
       </div>
