@@ -124,6 +124,10 @@ Updated: June 2016
   margin: 20px 0;
 }
 
+.pillHeader{
+  display: block;
+}
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
@@ -141,7 +145,7 @@ Updated: June 2016
   .tabNames{
     display: block;
     height: 100%;
-    width: 25%;
+    width: 100%;
     padding: 0;
   }
 
