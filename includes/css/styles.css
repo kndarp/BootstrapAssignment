@@ -138,6 +138,18 @@ Updated: June 2016
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 
+  .tabNames{
+    display: block;
+    height: 100%;
+    width: 25%;
+    padding: 0;
+  }
+
+
+  .person{
+    margin: 20px 0;
+  }
+
 
   .carousel-caption{
     font-size: 12px;
