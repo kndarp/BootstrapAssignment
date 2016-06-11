@@ -50,6 +50,31 @@ Updated: June 2016
   font-size: 20px;
   padding: 0;
 }
+
+.practices{
+  margin-top: 40px;
+}
+.practices h3{
+  margin-top: 20px;
+}
+
+footer{
+  background: #eee;
+  color: #333;
+  font-size: 11px;
+  padding: 20px;
+}
+.dev{
+  text-align: right;
+}
+
+footer ul.social li{
+  display: inline;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -77,6 +102,11 @@ Updated: June 2016
 #searchInput{
   width: 200px;
 }
+
+.navbar-brand{
+  padding-bottom: 2px;
+}
+
 
 /* --------------------------------------
    Carousel
@@ -145,7 +175,7 @@ Updated: June 2016
   .tabNames{
     display: block;
     height: 100%;
-    width: 100%;
+    width: 100% ;
     padding: 0;
   }
 
