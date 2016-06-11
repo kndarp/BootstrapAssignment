@@ -58,10 +58,16 @@ Updated: June 2016
   margin-top: 20px;
 }
 
+.address{
+  padding: 20px;
+  text-align: center;
+}
+
 footer{
   background: #eee;
   color: #333;
   font-size: 11px;
+  margin-top: 40px;
   padding: 20px;
 }
 .dev{
@@ -72,6 +78,10 @@ footer ul.social li{
   display: inline;
   padding-right: 10px;
   font-size: 20px;
+}
+
+map{
+  height: inherit;
 }
 
 
